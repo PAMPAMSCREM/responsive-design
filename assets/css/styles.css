@@ -9,3 +9,8 @@
 	border-top: 2px solid #111111;
 	border-bottom: 2px solid #111111;
 }
+
+.horizontal_line {
+    border-bottom: 2px solid black;
+    width: 90%;
+  }
