@@ -21,7 +21,7 @@ p {
 }
 
 h1 {
-	font-famoly: "PT Serif";
+	font-famoly: "Permanent Marker";
 	font-size: 35px;
 }
 
@@ -33,6 +33,15 @@ h2 {
 h3 {
 	font-famoly: "PT Serif";
 	font-size: 25px;
+}
+
+
+<!--PERMANENT MARKER + PT SERIFT GOOGLE FONT-->
+
+.permanent-marker-regular {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .pt-serif-regular {
@@ -58,3 +67,4 @@ h3 {
   font-weight: 700;
   font-style: italic;
 }
+<!--PERMANENT MARKER END FONT-->
