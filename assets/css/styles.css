@@ -82,8 +82,7 @@ img {
   margin: 4px 2px;
   cursor: pointer;
   font-size: 16px;
-	float: right;
-  /* Key style for the pill shape */
+  float: right;
   border-radius: 9999px; /* A large value ensures a perfect pill shape regardless of padding/height */
 }
 
