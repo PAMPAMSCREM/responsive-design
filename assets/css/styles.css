@@ -16,22 +16,22 @@
   }
 
 p {
-	font-famoly: "PT Serif";
+	font-family: "PT Serif";
 	font-size: 20px;
 }
 
 h1 {
-	font-famoly: "Permanent Marker";
+	font-family: "Permanent Marker";
 	font-size: 35px;
 }
 
 h2 {
-	font-famoly: "PT Serif";
+	font-family: "PT Serif";
 	font-size: 25px;
 }
 
 h3 {
-	font-famoly: "PT Serif";
+	font-family: "PT Serif";
 	font-size: 25px;
 }
 
@@ -68,3 +68,16 @@ h3 {
   font-style: italic;
 }
 <!--PERMANENT MARKER END FONT-->
+
+<!-- container-->
+.image-box {
+  width: 300px;
+  height: 200px; /* Fixed height is necessary for object-fit options like cover/contain */
+}
+
+.image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Or 'contain', 'fill', 'none', 'scale-down' */
+}
+<!-- container END -->
