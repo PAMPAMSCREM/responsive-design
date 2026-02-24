@@ -72,7 +72,7 @@ img {
 }
 
 .pill-button, .pill-button-link {
-  background-color: #007bff; /* Example background color */
+  background-color: #49434A; /* Example background color */
   border: none;
   color: white;
   padding: 10px 20px; /* Adjust padding for height and width */
@@ -82,10 +82,11 @@ img {
   margin: 4px 2px;
   cursor: pointer;
   font-size: 16px;
+	float: right;
   /* Key style for the pill shape */
   border-radius: 9999px; /* A large value ensures a perfect pill shape regardless of padding/height */
 }
 
 .pill-button:hover, .pill-button-link:hover {
-  background-color: #0056b3; /* Darker color on hover */
+  background-color: #27272B; /* Darker color on hover */
 }
