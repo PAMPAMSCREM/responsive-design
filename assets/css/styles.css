@@ -28,7 +28,7 @@ p {
 
 h1 {
 	font-family: "Permanent Marker";
-	font-size: 35px;
+	font-size: 50px;
 }
 
 h2 {
@@ -71,3 +71,21 @@ img {
   display: block; /* Helps with alignment issues */
 }
 
+.pill-button, .pill-button-link {
+  background-color: #007bff; /* Example background color */
+  border: none;
+  color: white;
+  padding: 10px 20px; /* Adjust padding for height and width */
+  text-align: center;
+  text-decoration: none; /* Remove underline for links */
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 16px;
+  /* Key style for the pill shape */
+  border-radius: 9999px; /* A large value ensures a perfect pill shape regardless of padding/height */
+}
+
+.pill-button:hover, .pill-button-link:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}
